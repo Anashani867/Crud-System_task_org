@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ayham",
+        "age": 23,
+        "address": "ayham.zaid@gmail.com",
+        "email": "ayham.zaid@gmail.com"
+    },
+    {
+        "name": "Ali",
+        "age": 30,
+        "address": "ali@gmail.com",
+        "email": "ayham.zaid@gmail.com"
+    },
+    
+        {
+            "name": "teat",
+            "age": 44,
+            "address": "test@gmail.com",
+            "email": "ayham.zaid@gmail.com"
+    }
+  
+]

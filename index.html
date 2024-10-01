@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Table with Edit</title>
+</head>
+<style>
+
+    body{
+        background-color: black;
+        color: antiquewhite;
+    }
+.ta{
+    display: flex;
+    margin: 40px;
+}
+
+table{
+    justify-content: center;
+}
+</style>
+<body >
+
+
+    <div class="ta">
+        <label for="id">Name</label>
+        <input type="text" id="id"><br>
+
+        <label for="brand">age</label>
+        <input type="text" id="brand"><br>
+
+        <label for="model">address</label>
+        <input type="text" id="model"><br>
+
+        <label for="price">email</label>
+        <input type="text" id="price"><br>
+
+        <button id="add-smartphone">ADD Smartphone</button>
+        <button id="update-smartphone" style="display:none;">UPDATE Smartphone</button>
+    </div>
+    <!-- Table -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>age</th>
+                <th>address</th>
+                <th>email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+
+    <!-- Add/Update Smartphone Form -->
+
+<script src="js.js"></script>
+</body>
+</html>
